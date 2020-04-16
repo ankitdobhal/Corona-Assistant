@@ -1,1 +1,2 @@
-# Covid19_Analyzer
+# Corona-Assistant.
+Speech recongition command line corona assistant
