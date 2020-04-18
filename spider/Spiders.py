@@ -7,7 +7,7 @@ def spiderIndia():
 	response = req.get(urls)
 	data = json.loads(response.text)
 	    
-	with open ('GenderWise_StateWise.json','w')	as outfile:
+	with open ('indiareport.json','w')	as outfile:
 		json.dump(data,outfile,indent=4)
 
 def spiderworld():
@@ -15,5 +15,5 @@ def spiderworld():
 	response = req.get(urls)
 	data = json.loads(response.text)
 
-	with open ('DistrictCases.json','w') as outfile:
+	with open ('worldreport.json','w') as outfile:
 		json.dump(data,outfile,indent=4)
